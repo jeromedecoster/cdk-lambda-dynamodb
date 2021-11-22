@@ -1,0 +1,4 @@
+.ignore
+launch-template.json
+*.pem
+cdk/

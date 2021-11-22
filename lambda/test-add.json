@@ -1,0 +1,40 @@
+{
+    "resource": "/{proxy+}",
+    "path": "/add",
+    "httpMethod": "POST",
+    "headers": {
+        "accept": "*/*",
+        "content-type": "application/json",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+        "accept": [
+            "*/*"
+        ],
+        "content-type": [
+            "application/json"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": {
+        "proxy": "add"
+    },
+    "stageVariables": null,
+    "requestContext": {
+        "resourcePath": "/{proxy+}",
+        "httpMethod": "POST",
+        "path": "/prod/add",
+        "protocol": "HTTP/1.1",
+        "stage": "prod"
+    },
+    "body": "{\"value\":\"xyz\"}",
+    "isBase64Encoded": false
+}
